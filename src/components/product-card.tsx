@@ -1,7 +1,6 @@
-import { FaExchangeAlt, FaExpandAlt, FaPlus } from "react-icons/fa";
-import { server } from "../redux/store";
-import { CartItem } from "../types/types";
+import { FaExpandAlt, FaPlus } from "react-icons/fa";
 import { Link } from "react-router-dom";
+import { CartItem } from "../types/types";
 
 type ProductsProps = {
   productId: string;
